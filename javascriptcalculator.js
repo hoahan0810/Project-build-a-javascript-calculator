@@ -28,8 +28,6 @@ class Buttons extends React.Component{
     }
 }
 
-
-
 class App extends React.Component{
     constructor(props){
         super(props);
@@ -37,7 +35,6 @@ class App extends React.Component{
             displayinputvalue: "",
             displayoutputvalue: "0",
             result: "0",
-
         };
         this.handleClear=this.handleClear.bind(this);
         this.handleNumber=this.handleNumber.bind(this);
@@ -176,8 +173,6 @@ class App extends React.Component{
         )
     }
 };
-
-
 
 const container = document.getElementById("container");
 const root = ReactDOM.createRoot(container);
